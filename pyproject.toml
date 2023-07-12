@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "$"
+version = "0.0.8"
+description = "A set of fUS-BIDS compatible datasets with empty raw data files."
+authors = ["sdiebolt <samuel@diebolt.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
