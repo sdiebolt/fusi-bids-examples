@@ -1,16 +1,27 @@
-[tool.poetry]
-name = "$"
+[project]
+name = "fus-bids-examples"
 version = "0.0.8"
 description = "A set of fUS-BIDS compatible datasets with empty raw data files."
-authors = ["sdiebolt <samuel@diebolt.io>"]
+authors = [
+    { name = "Samuel Le Meur-Diebolt", email = "samuel@diebolt.io" }
+]
+dependencies = [
+    "numpy~=2.0.1",
+    "pandas~=2.2.2",
+]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-numpy = "^1.25.1"
-pandas = "^2.0.3"
-
+requires-python = ">= 3.11"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fus_bids_examples"]
