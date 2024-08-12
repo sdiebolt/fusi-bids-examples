@@ -1,0 +1,24 @@
+{
+  "species": {
+    "Description": "binomial species name from NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+  },
+  "strain": {
+    "Description": "string value indicating the strain of the species"
+  },
+  "strain_identifier": {
+    "Description": "string value indicating a strain identifier (e.g. RRID or ILAR)."
+  },
+  "age": {
+    "Description": "Age of the animal at first acquisition, in weeks."
+  },
+  "sex": {
+    "Description": "Sex of the animal",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "weight": {
+    "Description": "Weight of the animal at first acquisition, in grams."
+  }
+}

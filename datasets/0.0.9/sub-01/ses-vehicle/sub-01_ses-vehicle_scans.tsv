@@ -1,0 +1,8 @@
+	filename	acq_time
+0	angio/sub-01_ses-vehicle_pwd.nii.gz	2024-11-16T:10:00:00
+1	fus/sub-01_ses-vehicle_task-awake_acq-bregmaMinus2_pwd.nii.gz	2024-07-30T:00:53:25
+2	fus/sub-01_ses-vehicle_task-awake_acq-bregmaMinus1_pwd.nii.gz	2024-05-31T:19:55:13
+3	fus/sub-01_ses-vehicle_task-awake_acq-bregmaPlus05_pwd.nii.gz	2024-09-16T:09:58:04
+4	fus/sub-01_ses-vehicle_task-stim_acq-bregmaMinus2_pwd.nii.gz	2024-08-19T:19:54:30
+5	fus/sub-01_ses-vehicle_task-stim_acq-bregmaMinus1_pwd.nii.gz	2024-05-13T:20:00:38
+6	fus/sub-01_ses-vehicle_task-stim_acq-bregmaPlus05_pwd.nii.gz	2024-02-16T:05:17:53

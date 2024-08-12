@@ -1,6 +1,6 @@
 [project]
 name = "fus-bids-examples"
-version = "0.0.8"
+version = "0.0.9"
 description = "A set of fUS-BIDS compatible datasets with empty raw data files."
 authors = [
     { name = "Samuel Le Meur-Diebolt", email = "samuel@diebolt.io" }
