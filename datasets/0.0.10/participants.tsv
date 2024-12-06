@@ -1,0 +1,11 @@
+participant_id	species	strain_identifier	age	sex	weight
+sub-01	mus musculus	C57BL/6J	25	M	36.75879594972566
+sub-02	mus musculus	C57BL/6J	28	M	36.555583870857895
+sub-03	mus musculus	C57BL/6J	28	M	35.132061395122435
+sub-04	mus musculus	C57BL/6J	27	M	37.25448241393607
+sub-05	mus musculus	C57BL/6J	27	M	35.935018684504094
+sub-06	mus musculus	C57BL/6J	29	M	33.28141507423352
+sub-07	mus musculus	C57BL/6J	25	M	35.737501568165
+sub-08	mus musculus	C57BL/6J	28	F	24.082234798342004
+sub-09	mus musculus	C57BL/6J	26	M	36.75690060261454
+sub-10	mus musculus	C57BL/6J	25	F	25.900148178027493

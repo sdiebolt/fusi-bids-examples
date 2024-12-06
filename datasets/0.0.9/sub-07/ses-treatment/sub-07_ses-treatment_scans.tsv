@@ -1,8 +1,0 @@
-	filename	acq_time
-0	angio/sub-07_ses-treatment_pwd.nii.gz	2024-01-04T:18:50:18
-1	fus/sub-07_ses-treatment_task-awake_acq-bregmaMinus2_pwd.nii.gz	2024-02-07T:00:45:24
-2	fus/sub-07_ses-treatment_task-awake_acq-bregmaMinus1_pwd.nii.gz	2024-02-25T:06:40:30
-3	fus/sub-07_ses-treatment_task-awake_acq-bregmaPlus05_pwd.nii.gz	2024-01-11T:20:19:21
-4	fus/sub-07_ses-treatment_task-stim_acq-bregmaMinus2_pwd.nii.gz	2024-11-03T:00:24:08
-5	fus/sub-07_ses-treatment_task-stim_acq-bregmaMinus1_pwd.nii.gz	2024-07-17T:12:48:03
-6	fus/sub-07_ses-treatment_task-stim_acq-bregmaPlus05_pwd.nii.gz	2024-12-12T:01:14:15

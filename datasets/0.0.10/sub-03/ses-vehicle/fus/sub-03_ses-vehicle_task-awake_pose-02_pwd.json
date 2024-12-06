@@ -1,0 +1,6 @@
+{
+  "TaskName": "awake",
+  "TaskDescription": "Awake head-fixed state.",
+  "RepetitionTime": 2.4,
+  "DelayAfterTrigger": 0.6
+}
