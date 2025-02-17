@@ -1,6 +1,6 @@
 [project]
 name = "fusi-bids-examples"
-version = "0.0.10"
+version = "0.0.11"
 description = "A set of fUSI-BIDS compatible example datasets with empty raw data files."
 authors = [
     { name = "Samuel Le Meur-Diebolt", email = "samuel@diebolt.io" }

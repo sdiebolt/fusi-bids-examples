@@ -1,8 +1,7 @@
-"""Generate a synthetic example 3D+t dataset following the fUSI-BIDS v0.0.10 draft."""
+"""Generate a synthetic example 3D+t dataset following the fUSI-BIDS v0.0.11 draft."""
 
 import datetime
 import json
-import random
 from pathlib import Path
 
 import numpy as np
@@ -10,7 +9,7 @@ import pandas as pd
 
 rng = np.random.default_rng(42)
 
-fusi_bids_version = "0.0.10"
+fusi_bids_version = "0.0.11"
 
 rawdata_path = Path("./datasets") / fusi_bids_version
 rawdata_path.mkdir(parents=True, exist_ok=True)
@@ -61,7 +60,7 @@ with open(readme_path, "w") as readme_file:
 # The CHANGES file should describe the different versions of the dataset. It must follow
 # the CPAN Changelog convention: https://metacpan.org/release/HAARG/CPAN-Changes-0.400002/view/lib/CPAN/Changes/Spec.pod
 changes_path = rawdata_path / "CHANGES.md"
-changes = """1.0.0 2024-12-06
+changes = """1.0.0 2025-02-17
   
  - Initial release."""
 
@@ -114,15 +113,18 @@ common_pwd_json = {
     "SoftwareVersions": "1.5.0",
     "ProbeType": "linear",
     "ProbeModel": "IcoPrime",
+    "ProbeSerialNumber": "UHJF728",
     "ProbeCentralFrequency": 15.625,
     "ProbeNumberOfElements": 128,
     "ProbePitch": 0.11,
     "ProbeRadiusOfCurvature": 0,
+    "ProbeElevationWidth": 0.4,
     "ProbeElevationAperture": 1.5,
     "ProbeElevationFocus": 8,
     "Depth": [1, 10],
+    "UltrasoundTransmitFrequency": 15.625,
     "UltrasoundPulseRepetitionFrequency": 5500,
-    "PlaneWaveAngles": [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10],
+    "PlaneWaveElevationAngles": [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10],
     "UltrafastSamplingFrequency": 500,
     "ProbeVoltage": 25,
     "SequenceName": "default",
@@ -193,7 +195,7 @@ for subject_index in range(1, 11):
         scan_paths_in_session = [str(angio_scan_path.relative_to(session_path))]
 
         # Functional scans.
-        fusi_path = session_path / "fus"
+        fusi_path = session_path / "fusi"
         fusi_path.mkdir(exist_ok=True, parents=True)
 
         # Stimulus task scans.

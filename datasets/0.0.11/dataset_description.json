@@ -1,0 +1,14 @@
+{
+  "Name": "fUSI-BIDS v0.0.11 example 3D+t dataset",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Samuel Le Meur-Diebolt"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Custom script",
+      "Description": "Custom Python script used to convert machine output to BIDS."
+    }
+  ]
+}
