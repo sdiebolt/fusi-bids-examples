@@ -251,18 +251,16 @@ for subject_index in range(1, 11):
         scans_table = pd.DataFrame(
             {
                 "filename": scan_paths_in_session,
-                "acq_time": [
-                    date.strftime("%Y-%m-%dT:%H:%M:%S") for date in scan_dates
-                ],
+                "acq_time": [date.strftime("%Y-%m-%dT%H:%M:%S") for date in scan_dates],
             }
         )
-        scans_table.to_csv(scans_table_path, sep="\t")
+        scans_table.to_csv(scans_table_path, sep="\t", index=False)
 
     session_table_path = subject_path / f"sub-{subject_index:02d}_sessions.tsv"
     session_table = pd.DataFrame(
         {
             "session_id": [f"ses-{session}" for session in sessions],
-            "acq_time": [date.strftime("%Y-%m-%dT:%H:%M:%S") for date in session_dates],
+            "acq_time": [date.strftime("%Y-%m-%dT%H:%M:%S") for date in session_dates],
         }
     )
-    session_table.to_csv(session_table_path, sep="\t")
+    session_table.to_csv(session_table_path, sep="\t", index=False)

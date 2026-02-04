@@ -1,9 +1,9 @@
-	filename	acq_time
-0	angio/sub-07_ses-treatment_pwd.nii.gz	2024-02-23T:02:50:38
-1	fusi/sub-07_ses-treatment_task-stim_acq-bregmaMinus2_pwd.nii.gz	2024-09-17T:10:44:08
-2	fusi/sub-07_ses-treatment_task-stim_acq-bregmaMinus1_pwd.nii.gz	2024-01-03T:14:09:57
-3	fusi/sub-07_ses-treatment_task-stim_acq-bregmaPlus05_pwd.nii.gz	2024-03-06T:19:44:55
-4	fusi/sub-07_ses-treatment_task-awake_pose-01_pwd.nii.gz	2024-06-04T:18:38:28
-5	fusi/sub-07_ses-treatment_task-awake_pose-02_pwd.nii.gz	2024-10-31T:02:39:01
-6	fusi/sub-07_ses-treatment_task-awake_pose-03_pwd.nii.gz	2024-04-13T:19:15:49
-7	fusi/sub-07_ses-treatment_task-awake_pose-04_pwd.nii.gz	2024-06-15T:12:20:13
+filename	acq_time
+angio/sub-07_ses-treatment_pwd.nii.gz	2024-02-23T02:50:38
+fusi/sub-07_ses-treatment_task-stim_acq-bregmaMinus2_pwd.nii.gz	2024-09-17T10:44:08
+fusi/sub-07_ses-treatment_task-stim_acq-bregmaMinus1_pwd.nii.gz	2024-01-03T14:09:57
+fusi/sub-07_ses-treatment_task-stim_acq-bregmaPlus05_pwd.nii.gz	2024-03-06T19:44:55
+fusi/sub-07_ses-treatment_task-awake_pose-01_pwd.nii.gz	2024-06-04T18:38:28
+fusi/sub-07_ses-treatment_task-awake_pose-02_pwd.nii.gz	2024-10-31T02:39:01
+fusi/sub-07_ses-treatment_task-awake_pose-03_pwd.nii.gz	2024-04-13T19:15:49
+fusi/sub-07_ses-treatment_task-awake_pose-04_pwd.nii.gz	2024-06-15T12:20:13

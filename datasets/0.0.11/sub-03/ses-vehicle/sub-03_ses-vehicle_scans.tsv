@@ -1,9 +1,9 @@
-	filename	acq_time
-0	angio/sub-03_ses-vehicle_pwd.nii.gz	2024-04-30T:02:06:01
-1	fusi/sub-03_ses-vehicle_task-stim_acq-bregmaMinus2_pwd.nii.gz	2024-10-04T:11:41:43
-2	fusi/sub-03_ses-vehicle_task-stim_acq-bregmaMinus1_pwd.nii.gz	2024-09-15T:12:54:09
-3	fusi/sub-03_ses-vehicle_task-stim_acq-bregmaPlus05_pwd.nii.gz	2024-12-03T:16:29:09
-4	fusi/sub-03_ses-vehicle_task-awake_pose-01_pwd.nii.gz	2024-06-27T:09:09:26
-5	fusi/sub-03_ses-vehicle_task-awake_pose-02_pwd.nii.gz	2024-03-26T:15:41:18
-6	fusi/sub-03_ses-vehicle_task-awake_pose-03_pwd.nii.gz	2024-08-06T:02:57:21
-7	fusi/sub-03_ses-vehicle_task-awake_pose-04_pwd.nii.gz	2024-05-03T:23:20:07
+filename	acq_time
+angio/sub-03_ses-vehicle_pwd.nii.gz	2024-04-30T02:06:01
+fusi/sub-03_ses-vehicle_task-stim_acq-bregmaMinus2_pwd.nii.gz	2024-10-04T11:41:43
+fusi/sub-03_ses-vehicle_task-stim_acq-bregmaMinus1_pwd.nii.gz	2024-09-15T12:54:09
+fusi/sub-03_ses-vehicle_task-stim_acq-bregmaPlus05_pwd.nii.gz	2024-12-03T16:29:09
+fusi/sub-03_ses-vehicle_task-awake_pose-01_pwd.nii.gz	2024-06-27T09:09:26
+fusi/sub-03_ses-vehicle_task-awake_pose-02_pwd.nii.gz	2024-03-26T15:41:18
+fusi/sub-03_ses-vehicle_task-awake_pose-03_pwd.nii.gz	2024-08-06T02:57:21
+fusi/sub-03_ses-vehicle_task-awake_pose-04_pwd.nii.gz	2024-05-03T23:20:07

@@ -1,3 +1,3 @@
-	session_id	acq_time
-0	ses-vehicle	2024-02-03T:01:06:50
-1	ses-treatment	2024-03-27T:19:19:58
+session_id	acq_time
+ses-vehicle	2024-02-03T01:06:50
+ses-treatment	2024-03-27T19:19:58
