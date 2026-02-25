@@ -7,7 +7,7 @@
   "ProbeType": "linear",
   "ProbeModel": "IcoPrime",
   "ProbeSerialNumber": "UHJF728",
-  "ProbeCentralFrequency": 15.625,
+  "ProbeCentralFrequency": 15000000.0,
   "ProbeNumberOfElements": 128,
   "ProbePitch": 0.11,
   "ProbeRadiusOfCurvature": 0,
@@ -18,7 +18,7 @@
     1,
     10
   ],
-  "UltrasoundTransmitFrequency": 15.625,
+  "UltrasoundTransmitFrequency": 15625000.0,
   "UltrasoundPulseRepetitionFrequency": 5500,
   "PlaneWaveElevationAngles": [
     -10,
