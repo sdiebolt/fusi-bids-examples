@@ -1,6 +1,6 @@
-# Example fUSI-BIDS v0.0.11 dataset
+# Example fUSI-BIDS v0.0.12 dataset
 
-This dataset provides an example for version 0.0.11 of the [fUSI-BIDS
+This dataset provides an example for version 0.0.12 of the [fUSI-BIDS
 specification](https://docs.google.com/document/d/1W3z01mf1E8cfg_OY7ZGqeUeOKv659jCHQBXavtmT-T8/edit?pli=1#heading=h.4k1noo90gelw).
 
 ## Overwiew

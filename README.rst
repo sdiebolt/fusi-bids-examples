@@ -1,6 +1,6 @@
 |version| |python|
 
-.. |version| image:: https://img.shields.io/badge/version-0.0.11-orange.svg
+.. |version| image:: https://img.shields.io/badge/version-0.0.12-orange.svg
     :target: https://github.com/sdiebolt/fusi-bids-examples
     :alt: fUSI-BIDS draft version
 
@@ -19,7 +19,7 @@ Synthetic datasets generation
 -----------------------------
 
 The ``create_synthetic_3dt_dataset.py`` script generates a synthetic 3D+t dataset
-following version v0.0.11 of the draft specification. The dataset consists of 10 mice,
+following version v0.0.12 of the draft specification. The dataset consists of 10 mice,
 each with two sessions: ``vehicle`` and ``treatment``. Each session contains a single
 angiography scan (``angio`` datatype), and 6 functional scans (``fusi`` datatype, 3
 task-free and 3 task-based).

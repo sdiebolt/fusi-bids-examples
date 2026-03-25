@@ -1,4 +1,4 @@
-"""Generate a synthetic example 3D+t dataset following the fUSI-BIDS v0.0.11 draft."""
+"""Generate a synthetic example 3D+t dataset following the fUSI-BIDS v0.0.12 draft."""
 
 import datetime
 import json
@@ -9,7 +9,7 @@ import pandas as pd
 
 rng = np.random.default_rng(42)
 
-fusi_bids_version = "0.0.11"
+fusi_bids_version = "0.0.12"
 
 rawdata_path = Path("./datasets") / fusi_bids_version
 rawdata_path.mkdir(parents=True, exist_ok=True)
@@ -110,7 +110,7 @@ common_pwd_json = {
     "ManufacturersModelName": "Iconeus One",
     "DeviceSerialNumber": "X23HFB12K8",
     "StationName": "Machine01",
-    "SoftwareVersions": "1.5.0",
+    "SoftwareVersion": "1.5.0",
     "ProbeType": "linear",
     "ProbeModel": "IcoPrime",
     "ProbeSerialNumber": "UHJF728",
@@ -118,24 +118,18 @@ common_pwd_json = {
     "ProbeNumberOfElements": 128,
     "ProbePitch": 0.11,
     "ProbeRadiusOfCurvature": 0,
-    "ProbeElevationWidth": 0.4,
-    "ProbeElevationAperture": 1.5,
-    "ProbeElevationFocus": 8,
+    "ProbeFocalWidth": 0.4,
+    "ProbeAperture": 1.5,
+    "ProbeFocalDepth": 8,
     "Depth": [1, 10],
     "UltrasoundTransmitFrequency": 15.625e6,
     "UltrasoundPulseRepetitionFrequency": 5500,
-    "PlaneWaveElevationAngles": [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10],
-    "UltrafastSamplingFrequency": 500,
+    "PlaneWaveAngles": [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10],
+    "CompoundSamplingFrequency": 500,
     "ProbeVoltage": 25,
     "SequenceName": "default",
     "ClutterFilterWindowDuration": 400,
-    "ClutterFilters": [
-        {
-            "FilterType": "Butterworth low-pass",
-            "HighThreshold": 25,
-        },
-        {"FilterType": "Fixed-threshold SVD", "LowThreshold": 60, "HighThreshold": 200},
-    ],
+    "ClutterFilters": ["Butterworth high-pass 25 Hz", "Index-based SVD [45-180]"],
     "PowerDopplerIntegrationDuration": 400,
 }
 
